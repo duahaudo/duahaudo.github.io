@@ -7,14 +7,35 @@
   <title>Simple Youtube</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Simple Youtube">
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
   <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
 </head>
 
 <body>
 
   <div class="container">
-    Simple Youtube
+    <div class="header">
+      <div class="logo"></div>
+      <div class="content">
+        <div>Simple Youtube</div>
+        <div class="navigator">
+          <a href="https://github.com/duahaudo/simple_youtube" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <iframe id="github-iframe" src=""></iframe>
+      <script>
+        fetch('https://api.github.com/repos/duahaudo/simple_youtube/contents/readme.MD')
+          .then(function (response) {
+            return response.json();
+          }).then(function (data) {
+            var iframe = document.getElementById('github-iframe');
+            iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
+          });
+      </script>
+    </div>
   </div>
 
   <script>
