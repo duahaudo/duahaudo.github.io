@@ -7,6 +7,7 @@ import Header from "./components/Header"
 import Menu from "./components/Menu"
 import Home from "./components/Home"
 import ReadMe from "./components/ReadMe"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -18,9 +19,12 @@ function App() {
         <Header />
         <Menu />
 
-        <div className="main-workspace">
-          {view === VIEW_HOME && <Home />}
-          {view === VIEW_README && <ReadMe />}
+        <div className="workspace">
+          <div className="main-workspace">
+            {view === VIEW_HOME && <Home />}
+            {view === VIEW_README && <ReadMe />}
+          </div>
+          <Footer />
         </div>
       </div>
     </AppContext.Provider>

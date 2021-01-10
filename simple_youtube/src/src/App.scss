@@ -5,10 +5,16 @@
   flex-direction: column;
   padding: 0;
 
-  .main-workspace {
-    width: 80vh;
+  .workspace {
+    overflow-y: auto;
     display: flex;
-    margin: 0 auto;
     flex: 1;
+    flex-direction: column;
+
+    .main-workspace {
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
   }
 }

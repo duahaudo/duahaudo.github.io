@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/simple_youtube/static/css/main.493026af.css",
+    "main.css": "/simple_youtube/static/css/main.53bede89.css",
     "main.js": "/simple_youtube/static/js/main.js",
     "main.js.map": "/simple_youtube/static/js/main.js.map",
     "static/js/1.chunk.js": "/simple_youtube/static/js/1.chunk.js",
     "static/js/1.chunk.js.map": "/simple_youtube/static/js/1.chunk.js.map",
     "index.html": "/simple_youtube/index.html",
-    "static/css/main.493026af.css.map": "/simple_youtube/static/css/main.493026af.css.map",
+    "static/css/main.53bede89.css.map": "/simple_youtube/static/css/main.53bede89.css.map",
     "static/js/main.js.LICENSE.txt": "/simple_youtube/static/js/main.js.LICENSE.txt",
-    "static/media/styles.scss": "/simple_youtube/static/media/icon2-1024.d26073d3.png"
+    "static/media/styles.scss": "/simple_youtube/static/media/icon2-1024.d26073d3.png",
+    "static/media/love_video.001fc328.png": "/simple_youtube/static/media/love_video.001fc328.png",
+    "static/media/most_popular.7a763e56.png": "/simple_youtube/static/media/most_popular.7a763e56.png",
+    "static/media/search_video.e8e022e1.png": "/simple_youtube/static/media/search_video.e8e022e1.png",
+    "static/media/setting.73b9165a.png": "/simple_youtube/static/media/setting.73b9165a.png"
   },
   "entrypoints": [
-    "static/css/main.493026af.css",
+    "static/css/main.53bede89.css",
     "static/js/main.js"
   ]
 }

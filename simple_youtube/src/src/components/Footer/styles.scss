@@ -1,0 +1,15 @@
+.footer {
+  padding: 16px;
+  box-shadow: 0 0 5px #aaa;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+  background-color: #e11584;
+  justify-content: flex-end;
+  margin-top: 16px;
+
+  .email {
+    color: #dddddd;
+    font-size: 0.9rem;
+  }
+}

@@ -1,2 +1,26 @@
+$text_color: #e11584;
+
 .home-wrapper {
+  .text-sesstion {
+    &:first-child {
+      .title {
+        margin-top: 0;
+      }
+    }
+
+    .title {
+      color: $text_color;
+    }
+    .content {
+      line-height: 1.5rem;
+
+      img {
+        width: 60%;
+        max-width: 400px;
+        margin: 1.5rem auto;
+        display: block;
+        box-shadow: 0 0 2px #aaa;
+      }
+    }
+  }
 }
