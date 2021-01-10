@@ -14,7 +14,7 @@ module.exports = override([
     config.output = {
       ...config.output, // copy all settings
       filename: "static/js/main.js",
-      chunkFilename: "static/js/[name].chunk.js",
+      chunkFilename: "static/js/[name].chunk.js"
     };
     // console.log(config)
     return config;

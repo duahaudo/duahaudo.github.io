@@ -40,5 +40,6 @@
     "customize-cra": "^1.0.0",
     "node-sass": "4",
     "react-app-rewired": "^2.1.8"
-  }
+  },
+  "homepage": "https://duahaudo.github.io/simple_youtube"
 }
