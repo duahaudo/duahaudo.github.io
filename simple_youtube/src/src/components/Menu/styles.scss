@@ -5,7 +5,7 @@
   margin-top: 10px;
 
   .class-item {
-    $color: #e11584;
+    $color: rgb(19, 52, 65);
     @mixin colorOpacity($color, $op) {
       $setColor: rgba($color, $op);
       color: $setColor;
