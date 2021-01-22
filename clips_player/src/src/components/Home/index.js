@@ -13,16 +13,24 @@ export default () => {
     <div className="text-sesstion">
       <h4 className="title">Description</h4>
       <div className="content">
-        This app help to bookmarks favourite youtube video and use Picture in Picture feature.
-        <br />
-        It's designed for iOS only and requires version >~ 14.0.
+        <p>
+          Enjoy surfing YouTube while using other apps or with lock screen.
+          What this means is that you can listen to your music anywhere and anytime while driving, working out or studying.
+          Simple design helps streaming music easier and supports the main function of music which is for users to enjoy and relax.
+          Search function is connected to YouTube so that users can easily locate any wanted videos.
+          In order to create a playlist, users can favorite any video simply by clicking on the heart next to each video on the dashboard.
+          Skipping the hassle of downloading multiple music apps because listening to music cannot get any easier with just one!!
+        </p>
+        <p>
+          It's designed for iOS only and requires version &gt;~ 14.0.
+        </p>
       </div>
     </div>
 
     <div className="text-sesstion">
       <h4 className="title">How to use ?</h4>
       <div className="content">
-        After opening, it shows the most popular Vietnam videos.
+        After opening, it shows the most popular videos on your region.
         You can pull the screen to reload and get latest video from Youtube.
         <img src={most_popular} alt="most popular videos" />
 
