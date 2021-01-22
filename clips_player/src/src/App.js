@@ -2,7 +2,7 @@ import './App.scss';
 
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -18,7 +18,7 @@ import Privacy from "./components/PrivacyPolicy"
 function App() {
 
   return (
-    <Router>
+    <Router basename="/#">
       <AppContext.Provider value={{}}>
         <div className="app-wrapper">
           <Header />
