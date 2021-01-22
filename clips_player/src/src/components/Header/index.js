@@ -8,7 +8,7 @@ export default () => {
     <div className="header">
       <div className="logo"></div>
       <div className="content">
-        <div>Simple Youtube</div>
+        <div>Clips Player</div>
         <div className="navigator">
           <a href="https://github.com/duahaudo/simple_youtube" target="_blank" rel="noreferrer">Github</a>
         </div>
