@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/clips_player/static/css/main.727d02b5.css",
+    "main.js": "/clips_player/static/js/main.js",
+    "main.js.map": "/clips_player/static/js/main.js.map",
+    "static/js/1.chunk.js": "/clips_player/static/js/1.chunk.js",
+    "static/js/1.chunk.js.map": "/clips_player/static/js/1.chunk.js.map",
+    "index.html": "/clips_player/index.html",
+    "static/css/main.727d02b5.css.map": "/clips_player/static/css/main.727d02b5.css.map",
+    "static/js/main.js.LICENSE.txt": "/clips_player/static/js/main.js.LICENSE.txt",
+    "static/media/styles.scss": "/clips_player/static/media/icon2-1024.0a7a370a.png",
+    "static/media/love_video.6c70b6c5.png": "/clips_player/static/media/love_video.6c70b6c5.png",
+    "static/media/most_popular.0ce26bb4.png": "/clips_player/static/media/most_popular.0ce26bb4.png",
+    "static/media/search_video.a79ab195.png": "/clips_player/static/media/search_video.a79ab195.png",
+    "static/media/setting.d81d0c02.png": "/clips_player/static/media/setting.d81d0c02.png"
+  },
+  "entrypoints": [
+    "static/css/main.727d02b5.css",
+    "static/js/main.js"
+  ]
+}
