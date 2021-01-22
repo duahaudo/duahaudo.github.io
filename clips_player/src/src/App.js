@@ -18,7 +18,7 @@ import Privacy from "./components/PrivacyPolicy"
 function App() {
 
   return (
-    <Router basename="/#">
+    <Router>
       <AppContext.Provider value={{}}>
         <div className="app-wrapper">
           <Header />

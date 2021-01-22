@@ -8,7 +8,7 @@ export default () => {
     <div className="text-sesstion">
       <div className="content">
         <p>
-          Son Dieu built the sYoutube app as a Free app. This SERVICE is provided by Son Dieu at no cost and is intended for use as is.
+          Son Dieu built the <b>Clips Player</b> app as a FREE app. This SERVICE is provided by Son Dieu at no cost and is intended for use as is.
         </p>
 
         <p>
